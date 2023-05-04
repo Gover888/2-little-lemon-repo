@@ -1,0 +1,16 @@
+.main {
+  padding: 5rem 15%;
+  display: flex;
+  flex-direction: column;
+}
+.main h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+.main .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=Main.css.map */

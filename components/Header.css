@@ -1,0 +1,44 @@
+
+.header {
+    display: flex;
+    border: 1px solid pink;
+    justify-content: space-between;
+    height: 400px;
+    background-color: #495e57;
+    padding: 0 15%;
+}
+
+.header_left, .header_right {
+    width: 50%;
+    /*border: 1px solid #eecd25;*/
+}
+
+.header_left {
+    color: white;
+}
+
+.header_left h1 {
+    font-size: 70px;
+    color: #f4ce14;
+    margin-top: 2rem;
+    line-height: 60px;
+}
+
+
+.header_left p {
+    margin: 2rem 0;
+    max-width: 400px;
+}
+
+
+
+
+.header img {
+    transform: translateY(10%);
+    float: right;
+    border-radius: 1.5rem;
+    width: 350px;
+    height: 500px;
+    aspect-ratio: 4 / 6;
+    object-fit: cover;
+}
